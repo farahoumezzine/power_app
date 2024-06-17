@@ -7,23 +7,8 @@ import { Component } from '@angular/core';
 })
 export class FirstcomponentComponent {
 
-  hero = {
-    name: '',
-    power: '',
-    moves: '',
-    image: '',
-  }
-  heros:any[]= [];
+ 
+ 
 
-  ajouter(){
-    this.heros.push(this.hero);
-    this.hero = {
-      name: '',
-      power: '',
-      moves: '',
-      image: '',
-    }
-
-    console.log(this.heros);
   }
-}
+
